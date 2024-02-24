@@ -1,0 +1,81 @@
+.container1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    flex-direction: row;
+}
+.fa-brands {
+    color: red;
+    padding: 0px;
+    margin-bottom: 0;
+    width: 44px;
+    height: 44px;
+}
+.signals{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    align-items: flex-start;
+}
+
+.home{
+    height: 10px;
+    width: 20px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+    color: aliceblue;
+}
+.about{
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    text-decoration: none;
+    color: black;
+}
+.barra-de-busqueda{
+    border-radius: 10px;
+    height: 20px;
+    width: 400px;
+}
+
+.container .card {
+    /* display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto; */
+    columns: 7;
+    column-gap: 20px;
+    width: 1800px;
+    margin: 0px;
+}
+
+.container .card .imagen {
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+    border-radius: 20px;
+    /* height: auto; */
+    box-sizing: border-box;
+
+}
+.imagen:hover {
+    cursor: pointer;
+}
+.container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+.fa-solid {
+    padding-top: 10;
+}
